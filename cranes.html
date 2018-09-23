@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cranes automatisation</title>
+	<link rel="stylesheet" type="text/css" href="cranes.css"/>
+</head>
+<body>
+	<div id="container">
+		<h2>Cranes Automatisation Monitor</h2>
+		<div id="start">
+		<input id="input" type="number" placeholder="select number of items to move">
+		<button id="button">Start moving the cargo</button>
+		</div>
+		<div class="monitor">
+			<div class="progress">Progress in Slot_A</div>
+			<div class="port" id="port-a"></div>
+		</div>
+		<div class="monitor">
+			<div class="progress">Progress in Slot_B</div>
+			<div class="port" id="port-b"></div>
+		</div>
+		<div class="monitor">
+			<div class="progress">Progress in Slot_C</div>
+			<div class="port" id="port-c"></div>
+		</div>
+	</div>
+	<script src="cranes.js"></script>
+</body>
+</html>
